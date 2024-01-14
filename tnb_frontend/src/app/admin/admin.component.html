@@ -1,0 +1,43 @@
+<div class="container-fluid p-0">
+  <div class="row g-0">
+    <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg py-3 px-5 shadow-sm" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bolder" href="#">TNB 2024</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center">
+              <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="tnb/categories">Catégories</a>
+              </li>
+              <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="tnb/clients">Redevables</a>
+              </li>
+              <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="tnb/lands">Terrains</a>
+              </li>
+              <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="tnb/rates">Taux</a>
+              </li>
+              <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="tnb/tnb">TNB</a>
+              </li>
+              
+            </ul>
+          </div>
+          
+
+        </div>
+      </nav>
+    </div>
+
+    <div class="col-md-12 p-5">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
